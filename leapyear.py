@@ -3,3 +3,5 @@ def leap(n):
         return "Is a leap year"
     elif n%100==0:
         return "Is not a leap year"
+    elif n%4==0:
+        return "Is a leap year"
