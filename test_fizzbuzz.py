@@ -7,6 +7,9 @@ class TestCase(unittest.TestCase):
 
     def testbuzz(self):
         self.assertEqual(fizzbuzz.fizz(5),"Buzz")
+
+    def testfizzbuzz(self):
+        self.assertEqual(fizzbuzz.fizz(15),"FizzBuzz")
     
 if __name__ == '__main__':
     unittest.main(verbosity=2)
