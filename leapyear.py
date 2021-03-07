@@ -7,3 +7,6 @@ def leap(n):
         return "Is a leap year"
     else:
         return "Is not a leap year"
+
+year = int(input("Please enter an integer to check whether that year is a leap year"))
+print(leap(year))
