@@ -7,6 +7,9 @@ class TestCase(unittest.TestCase):
     
     def testonehundred(self):
         self.assertEqual(leapyear.leap(100),"Is not a leap year")
+    
+    def testfour(self):
+        self.assertEqual(leapyear.leap(4),"Is a leap year")
         
 if __name__ == '__main__':
     unittest.main(verbosity=2)
